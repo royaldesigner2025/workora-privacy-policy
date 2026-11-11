@@ -1,540 +1,381 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Workora Attendance & Salary</title>
-    <style>
-        :root {
-            --primary: #2563EB;
-            --primary-light: #3B82F6;
-            --primary-dark: #1D4ED8;
-            --bg-color: #0B0F19;
-            --surface-color: #111827;
-            --surface-hover: #1F2937;
-            --border-color: #2D3748;
-            --text-primary: #F8FAFC;
-            --text-secondary: #94A3B8;
-            --text-muted: #64748B;
-            --success: #10B981;
-            --warning: #F59E0B;
-            --danger: #EF4444;
-            --info: #0EA5E9;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        @media (prefers-color-scheme: light) {
-            :root {
-                --bg-color: #F8FAFC;
-                --surface-color: #FFFFFF;
-                --surface-hover: #F1F5F9;
-                --border-color: #E2E8F0;
-                --text-primary: #0F172A;
-                --text-secondary: #475569;
-                --text-muted: #94A3B8;
-            }
-        }
+  <meta name="description" content="Official Privacy Policy for Workora Attendance, Overtime and Salary App.">
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+  <title>Privacy Policy | Workora</title>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-primary);
-            line-height: 1.7;
-            padding: 32px 16px;
-            -webkit-font-smoothing: antialiased;
-        }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        .container {
-            max-width: 860px;
-            margin: 0 auto;
-        }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6fb;
+      color: #202b40;
+      line-height: 1.7;
+    }
 
-        /* Hero Header */
-        header {
-            text-align: center;
-            padding: 44px 24px 36px;
-            margin-bottom: 28px;
-            background: linear-gradient(145deg, rgba(37, 99, 235, 0.16) 0%, rgba(16, 185, 129, 0.1) 100%);
-            border: 1px solid var(--border-color);
-            border-radius: 24px;
-            position: relative;
-            overflow: hidden;
-        }
+    header {
+      background: linear-gradient(135deg, #203b9b, #4775ed);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
 
-        header::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, #2563EB, #10B981, #F59E0B);
-        }
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
 
-        .brand-badge {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 58px;
-            height: 58px;
-            background: var(--primary);
-            color: #FFFFFF;
-            font-weight: 900;
-            font-size: 28px;
-            border-radius: 16px;
-            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.35);
-            margin-bottom: 16px;
-        }
+    header p {
+      color: #e5eaff;
+      font-size: 16px;
+    }
 
-        h1 {
-            font-size: 32px;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            margin-bottom: 8px;
-        }
+    .container {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 35px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 25px rgba(0,0,0,0.06);
+    }
 
-        .app-subhead {
-            font-size: 15px;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
+    h2 {
+      color: #3157d5;
+      margin: 28px 0 10px;
+      font-size: 21px;
+    }
 
-        .meta-tags {
-            display: flex;
-            justify-content: center;
-            gap: 12px;
-            flex-wrap: wrap;
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--text-muted);
-        }
+    h2:first-child {
+      margin-top: 0;
+    }
 
-        .meta-pill {
-            background: var(--surface-hover);
-            padding: 4px 12px;
-            border-radius: 100px;
-            border: 1px solid var(--border-color);
-        }
+    p {
+      margin-bottom: 14px;
+    }
 
-        /* Section Cards */
-        .card {
-            background-color: var(--surface-color);
-            border: 1px solid var(--border-color);
-            border-radius: 18px;
-            padding: 30px;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
-            transition: border-color 0.2s ease;
-        }
+    ul {
+      padding-left: 25px;
+      margin-bottom: 15px;
+    }
 
-        .card:hover {
-            border-color: rgba(37, 99, 235, 0.4);
-        }
+    li {
+      margin-bottom: 8px;
+    }
 
-        h2 {
-            font-size: 21px;
-            font-weight: 700;
-            color: var(--primary-light);
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
+    a {
+      color: #3157d5;
+      text-decoration: none;
+    }
 
-        h3 {
-            font-size: 17px;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 18px 0 8px;
-        }
+    a:hover {
+      text-decoration: underline;
+    }
 
-        p {
-            font-size: 15px;
-            color: var(--text-primary);
-            margin-bottom: 14px;
-        }
+    .notice {
+      background: #f1f5ff;
+      border-left: 4px solid #3157d5;
+      padding: 18px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
 
-        p:last-child {
-            margin-bottom: 0;
-        }
+    .contact {
+      background: #f4f6fb;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
 
-        ul {
-            margin-left: 22px;
-            margin-bottom: 14px;
-        }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #667085;
+      font-size: 14px;
+    }
 
-        li {
-            margin-bottom: 8px;
-            font-size: 15px;
-            color: var(--text-primary);
-        }
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
 
-        strong {
-            font-weight: 600;
-            color: var(--text-primary);
-        }
-
-        /* Practice Callout Boxes */
-        .callout-box {
-            background: rgba(37, 99, 235, 0.08);
-            border-left: 4px solid var(--primary);
-            padding: 16px 20px;
-            border-radius: 0 12px 12px 0;
-            margin: 18px 0;
-        }
-
-        .callout-box.success {
-            background: rgba(16, 185, 129, 0.08);
-            border-left-color: var(--success);
-        }
-
-        .callout-box.warning {
-            background: rgba(245, 158, 11, 0.08);
-            border-left-color: var(--warning);
-        }
-
-        /* Data Breakdown Table */
-        .data-table-wrapper {
-            overflow-x: auto;
-            margin: 18px 0;
-            border-radius: 12px;
-            border: 1px solid var(--border-color);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 14px;
-            text-align: left;
-        }
-
-        th {
-            background-color: var(--surface-hover);
-            color: var(--text-secondary);
-            padding: 12px 16px;
-            font-weight: 700;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        td {
-            padding: 14px 16px;
-            border-bottom: 1px solid var(--border-color);
-            vertical-align: top;
-        }
-
-        tr:last-child td {
-            border-bottom: none;
-        }
-
-        .badge {
-            display: inline-block;
-            font-size: 11px;
-            font-weight: 700;
-            padding: 3px 8px;
-            border-radius: 6px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .badge.local {
-            background: rgba(16, 185, 129, 0.15);
-            color: var(--success);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-        }
-
-        .badge.admob {
-            background: rgba(245, 158, 11, 0.15);
-            color: var(--warning);
-            border: 1px solid rgba(245, 158, 11, 0.3);
-        }
-
-        .badge.none {
-            background: rgba(100, 116, 139, 0.15);
-            color: var(--text-muted);
-            border: 1px solid rgba(100, 116, 139, 0.3);
-        }
-
-        /* Links & Buttons */
-        a {
-            color: var(--primary-light);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.15s ease;
-        }
-
-        a:hover {
-            text-decoration: underline;
-            color: var(--primary);
-        }
-
-        .link-chip {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            background: var(--surface-hover);
-            border: 1px solid var(--border-color);
-            padding: 6px 14px;
-            border-radius: 8px;
-            font-size: 13px;
-            margin: 4px 4px 4px 0;
-        }
-
-        /* Contact Details */
-        .contact-card {
-            background: linear-gradient(135deg, rgba(37, 99, 235, 0.08) 0%, rgba(30, 41, 59, 0.4) 100%);
-            border: 1px solid rgba(37, 99, 235, 0.3);
-            border-radius: 14px;
-            padding: 22px;
-            margin-top: 14px;
-        }
-
-        .contact-item {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-
-        .contact-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .contact-label {
-            font-weight: 600;
-            min-width: 120px;
-            color: var(--text-secondary);
-        }
-
-        footer {
-            text-align: center;
-            padding: 36px 12px 16px;
-            font-size: 13px;
-            color: var(--text-muted);
-        }
-
-        code {
-            background: var(--surface-hover);
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: monospace;
-            font-size: 13px;
-            color: var(--primary-light);
-        }
-    </style>
+      .container {
+        margin: 15px;
+        padding: 22px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Workora: Attendance, Overtime & Salary</p>
+  <p>Effective Date: October 30, 2026</p>
+  <p>App Version: 1.0</p>
+</header>
+
 <div class="container">
-    <!-- Header -->
-    <header>
-        <div class="brand-badge">W</div>
-        <h1>Privacy Policy</h1>
-        <p class="app-subhead"><strong>Workora: Attendance, Overtime & Salary</strong></p>
-        <div class="meta-tags">
-            <span class="meta-pill">Package: com.aistudio.workora.kxmpzq</span>
-            <span class="meta-pill">Version 1.0</span>
-            <span class="meta-pill">Effective Date: October 30, 2026</span>
-        </div>
-    </header>
 
-    <!-- 1. Executive Summary -->
-    <div class="card">
-        <h2>1. Executive Summary & Core Philosophy</h2>
-        <p>
-            Workora ("we", "our", or "the App") is developed as an <strong>offline-first attendance, overtime tracking, and salary calculation utility</strong> for workers, freelancers, and salaried employees.
-        </p>
-        <p>
-            Our core architecture is built around user privacy: <strong>your attendance logs and salary records are strictly stored on your own physical device</strong>. We do not operate external database servers, we do not require account sign-ups, and we do not harvest, track, or sell your employment or financial data.
-        </p>
-        <div class="callout-box success">
-            <p>🛡️ <strong>Zero Cloud Storage of Personal Logs:</strong> All attendance statuses, wage values, and salary slips remain in your device's private sandboxed database (Android Room SQLite). If you uninstall the app or clear its data, all personal records are immediately wiped from the device.</p>
-        </div>
-    </div>
+  <h2>1. Introduction</h2>
 
-    <!-- 2. Data Practices Breakdown Table -->
-    <div class="card">
-        <h2>2. Data Collection & Processing Breakdown</h2>
-        <p>
-            To provide complete transparency as required by Google Play Policies and international data regulations (GDPR, CCPA), the table below details how each category of data is handled:
-        </p>
+  <p>
+    Welcome to Workora. Your privacy is important to us.
+    This Privacy Policy explains how Workora collects,
+    uses, stores and protects information when you use
+    our attendance, overtime and salary management app.
+  </p>
 
-        <div class="data-table-wrapper">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Data Category</th>
-                        <th>Specific Items</th>
-                        <th>Storage Location</th>
-                        <th>Sent to External Servers?</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Attendance Records</strong></td>
-                        <td>Dates, statuses (Present, Absent, Half Day, Shift, Holiday), overtime hours, custom shift hours, daily notes.</td>
-                        <td><span class="badge local">Local SQLite (Device Only)</span></td>
-                        <td><span class="badge none">NO (Never Transmitted)</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Salary & Financial Details</strong></td>
-                        <td>Monthly base wage, daily calculation rates, hourly overtime rate, paid holiday toggle, advance loan deductions.</td>
-                        <td><span class="badge local">Local SQLite (Device Only)</span></td>
-                        <td><span class="badge none">NO (Never Transmitted)</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Generated Documents</strong></td>
-                        <td>PDF monthly payslips, exported JSON database backups.</td>
-                        <td><span class="badge local">Local Cache / Clipboard</span></td>
-                        <td><span class="badge none">NO (Only shared manually by user)</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Advertisement Identifiers</strong></td>
-                        <td>Google Advertising ID (AAID), coarse IP location, device model, app interaction diagnostics.</td>
-                        <td><span class="badge admob">Google AdMob SDK</span></td>
-                        <td><strong>YES</strong> (Processed by Google under Google's Privacy Policy)</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
+  <p>
+    Workora is designed to help employees and workers
+    manage their attendance, working hours, overtime
+    and salary records.
+  </p>
 
-    <!-- 3. Attendance Data Specifics -->
-    <div class="card">
-        <h2>3. Attendance Data Practices</h2>
-        <p>
-            When you mark your attendance inside Workora:
-        </p>
-        <ul>
-            <li><strong>Input Data:</strong> Workora saves the selected date, attendance status (Present, Absent, Half Day, Shift, or Holiday), recorded shift timing, approved overtime hours, and any optional text remarks you enter.</li>
-            <li><strong>Purpose:</strong> This data is solely used by the on-device algorithms to calculate your monthly attendance percentage, completed work days, and overtime totals.</li>
-            <li><strong>Access Restrictions:</strong> No third party, including the app developer, has access to your attendance logs or shift schedules.</li>
-        </ul>
-    </div>
+  <div class="notice">
+    <strong>Our Privacy Commitment:</strong>
+    Attendance and salary records are designed to be
+    stored locally on your device. Workora does not
+    operate a cloud database for these records.
+    Advertising services may separately process
+    technical and advertising information.
+  </div>
 
-    <!-- 4. Salary & Earnings Data Specifics -->
-    <div class="card">
-        <h2>4. Salary & Earnings Data Practices</h2>
-        <p>
-            Workora features a transparent salary estimation calculator:
-        </p>
-        <ul>
-            <li><strong>User-Configured Rates:</strong> You may enter your base monthly salary, working days per month, and overtime hourly rate.</li>
-            <li><strong>Advance Loan Deductions:</strong> You can optionally record advance draws or loan deductions against a specific month.</li>
-            <li><strong>Payslip Generation:</strong> Monthly PDF salary slips are compiled on-device utilizing Android's native <code>PdfDocument</code> graphics engine. They are saved in your application cache and are never uploaded to any remote server.</li>
-            <li><strong>No Financial Account Linking:</strong> Workora does not request, link to, or access your bank accounts, credit cards, UPI, or payment gateways.</li>
-        </ul>
-    </div>
+  <h2>2. Information You Enter</h2>
 
-    <!-- 5. Advertising Identifiers & Google AdMob -->
-    <div class="card">
-        <h2>5. Advertising Identifiers (Google AdMob)</h2>
-        <p>
-            Workora displays banner advertisements supplied by <strong>Google AdMob</strong> (Google Mobile Ads SDK) to support the ongoing development, updates, and maintenance of the free application.
-        </p>
+  <p>Depending on the features you use, Workora may store:</p>
 
-        <h3>What AdMob & Google Play Services Collect:</h3>
-        <p>
-            The Google Mobile Ads SDK may automatically process certain technical and pseudonymous information from your device, including:
-        </p>
-        <ul>
-            <li><strong>Google Advertising ID (AAID):</strong> A unique, user-resettable identifier provided by Google Play Services used for advertising attribution, frequency capping (preventing repetitive ads), and fraud detection.</li>
-            <li><strong>Device Telemetry:</strong> Device manufacturer, hardware model, operating system version, screen resolution, mobile carrier, and interface language.</li>
-            <li><strong>Approximate Location:</strong> Derived from your coarse IP address (country or city level) to ensure region-appropriate advertisements.</li>
-            <li><strong>Diagnostic Metrics:</strong> Ad request latency, loading success/failure errors, and user interactions with banner ads.</li>
-        </ul>
+  <ul>
+    <li>Attendance dates and status.</li>
+    <li>Present, absent, half-day and holiday records.</li>
+    <li>Working hours and overtime details.</li>
+    <li>Monthly salary and hourly wage information.</li>
+    <li>Advance payments and salary deductions.</li>
+    <li>Optional notes and attendance remarks.</li>
+  </ul>
 
-        <div class="callout-box warning">
-            <p>⚙️ <strong>How to Opt-Out or Reset Your Advertising ID:</strong><br>
-            You can control or delete your Advertising ID at any time via Android device settings:<br>
-            <strong>Open Android Settings &gt; Google &gt; Ads &gt; Tap "Reset advertising ID" or "Delete advertising ID"</strong>.<br>
-            You can also toggle off "Personalized Ads" to only receive contextual, non-targeted advertisements.</p>
-        </div>
+  <h2>3. Data Storage</h2>
 
-        <h3>Google Privacy Links:</h3>
-        <p>For detailed information on how Google manages and secures advertising data:</p>
-        <div>
-            <a class="link-chip" href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">🌐 Google Advertising Technologies</a>
-            <a class="link-chip" href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">🔒 Google Privacy Policy</a>
-            <a class="link-chip" href="https://support.google.com/googleplay/android-developer/answer/6048248" target="_blank" rel="noopener noreferrer">📋 Google Play Advertising ID Policy</a>
-        </div>
-    </div>
+  <p>
+    Workora is designed to store attendance and salary
+    information in the app's private storage on your
+    Android device.
+  </p>
 
-    <!-- 6. System Permissions Declared -->
-    <div class="card">
-        <h2>6. Device Permissions Used</h2>
-        <p>Workora utilizes the principle of least privilege and requests only standard install-time permissions:</p>
-        <ul>
-            <li><code>android.permission.INTERNET</code>: Required solely by Google AdMob SDK to fetch ad banners over the network.</li>
-            <li><code>android.permission.ACCESS_NETWORK_STATE</code>: Used by the AdMob SDK to verify whether internet connectivity is active before dispatching ad requests.</li>
-        </ul>
-        <p>
-            Workora does <strong>NOT</strong> request runtime permissions such as Camera, Microphone, Precise GPS Location (Fine Location), Contacts, SMS, Phone State, or External Storage.
-        </p>
-    </div>
+  <p>
+    The developer does not operate an external cloud
+    database for these personal records.
+  </p>
 
-    <!-- 7. Data Retention, Backup & Deletion Rights -->
-    <div class="card">
-        <h2>7. Data Retention, Backup & User Rights</h2>
-        <ul>
-            <li><strong>Full User Control:</strong> You can edit or delete any attendance day or advance deduction record directly from within the app at any time.</li>
-            <li><strong>JSON Backup & Restore:</strong> Workora provides an export tool that copies your complete attendance database and salary configuration into a structured JSON string on your clipboard. You decide where to save or transfer this backup.</li>
-            <li><strong>Permanent Data Erasure:</strong> To completely erase all Workora records, you can select "Clear Data / Clear Storage" under <em>Android Settings &gt; Apps &gt; Workora</em>, or simply uninstall the application. All local SQLite databases will be permanently destroyed.</li>
-        </ul>
-    </div>
+  <p>
+    Your records may be permanently lost if you uninstall
+    the app or clear its storage. Please maintain a backup
+    if you want to preserve your information.
+  </p>
 
-    <!-- 8. Children's Privacy -->
-    <div class="card">
-        <h2>8. Children's Privacy</h2>
-        <p>
-            Workora is designed for workforce personnel, employees, and adults managing their job attendance and earnings. We do not intentionally target, collect, or solicit personal data from children under the age of 13 (or under 16 in the European Economic Area).
-        </p>
-    </div>
+  <h2>4. PDF Payslips and Backup</h2>
 
-    <!-- 9. Policy Amendments -->
-    <div class="card">
-        <h2>9. Updates to This Privacy Policy</h2>
-        <p>
-            We may occasionally update this Privacy Policy to reflect app enhancements, legal requirements, or Google Play policy modifications. When changes are made, the revised policy will be posted on this page with an updated "Effective Date". Continued use of Workora signifies your acknowledgment of the updated policy.
-        </p>
-    </div>
+  <ul>
+    <li>
+      PDF payslips are generated on your device.
+    </li>
+    <li>
+      JSON backups can be exported or copied using
+      the app's backup feature.
+    </li>
+    <li>
+      You control where exported files are saved
+      and whether they are shared.
+    </li>
+    <li>
+      Other apps receiving your exported files may
+      handle them under their own privacy policies.
+    </li>
+  </ul>
 
-    <!-- 10. Developer Contact -->
-    <div class="card">
-        <h2>10. Developer Contact & Inquiries</h2>
-        <p>
-            If you have questions, feedback, or concerns regarding your privacy or data practices within Workora, please contact the developer:
-        </p>
+  <h2>5. Advertising and Google AdMob</h2>
 
-        <div class="contact-card">
-            <div class="contact-item">
-                <span class="contact-label">Developer:</span>
-                <span>Workora App Team</span>
-            </div>
-            <div class="contact-item">
-                <span class="contact-label">Email:</span>
-                <span><a href="mailto:royaldesigner815@gmail.com">royaldesigner815@gmail.com</a></span>
-            </div>
-            <div class="contact-item">
-                <span class="contact-label">Package Name:</span>
-                <span><code>com.aistudio.workora.kxmpzq</code></span>
-            </div>
-            <div class="contact-item">
-                <span class="contact-label">Application:</span>
-                <span>Workora: Attendance, Overtime & Salary</span>
-            </div>
-        </div>
-    </div>
+  <p>
+    Workora may display advertisements through
+    Google AdMob to support app development
+    and maintenance.
+  </p>
 
-    <!-- Footer -->
-    <footer>
-        &copy; 2026 Workora. All rights reserved. Designed with user privacy and on-device data sovereignty.
-    </footer>
+  <p>
+    Google AdMob and its partners may process
+    information such as:
+  </p>
+
+  <ul>
+    <li>Advertising identifiers, where available.</li>
+    <li>Device model and operating system information.</li>
+    <li>IP address and approximate location.</li>
+    <li>Advertisement interactions and diagnostics.</li>
+    <li>Ad performance and fraud prevention information.</li>
+  </ul>
+
+  <p>
+    This information is processed according to Google's
+    privacy policies and applicable settings.
+    Workora's locally stored attendance and salary
+    records are not intended to be transmitted
+    to Google for advertising.
+  </p>
+
+  <p>
+    Learn more:
+  </p>
+
+  <ul>
+    <li>
+      <a href="https://policies.google.com/privacy"
+         target="_blank" rel="noopener noreferrer">
+        Google Privacy Policy
+      </a>
+    </li>
+
+    <li>
+      <a href="https://policies.google.com/technologies/ads"
+         target="_blank" rel="noopener noreferrer">
+        Google Advertising Technologies
+      </a>
+    </li>
+  </ul>
+
+  <h2>6. App Permissions</h2>
+
+  <p>Workora may use the following permissions:</p>
+
+  <ul>
+    <li>
+      <strong>INTERNET:</strong>
+      Used for internet connectivity and loading
+      advertisements.
+    </li>
+
+    <li>
+      <strong>ACCESS_NETWORK_STATE:</strong>
+      Used to check network connectivity.
+    </li>
+  </ul>
+
+  <p>
+    The current app design does not require camera,
+    microphone, contacts, SMS or precise location access.
+    This section must be updated if future versions
+    introduce additional permissions.
+  </p>
+
+  <h2>7. Data Sharing</h2>
+
+  <p>
+    We do not sell your attendance or salary records.
+    Workora does not intentionally send these locally
+    stored records to the developer's servers.
+  </p>
+
+  <p>
+    Advertising providers may process information
+    under their own privacy policies. Information
+    may also be disclosed when required by law.
+  </p>
+
+  <h2>8. Data Deletion</h2>
+
+  <p>
+    You can delete individual records using the
+    available app features.
+  </p>
+
+  <p>
+    To delete all locally stored Workora information:
+  </p>
+
+  <ul>
+    <li>Open Android Settings.</li>
+    <li>Select Apps.</li>
+    <li>Open Workora.</li>
+    <li>Select Storage.</li>
+    <li>Tap Clear Storage or Clear Data.</li>
+  </ul>
+
+  <p>
+    Uninstalling Workora also removes its local
+    application data. Exported backups must be
+    deleted separately from wherever you saved them.
+  </p>
+
+  <h2>9. Data Security</h2>
+
+  <p>
+    Workora is designed to keep personal records
+    in the app's private device storage.
+    Users should protect their devices with
+    appropriate screen locks and keep exported
+    backups secure.
+  </p>
+
+  <h2>10. Children's Privacy</h2>
+
+  <p>
+    Workora is designed for people managing
+    work attendance and earnings. It is not
+    intended to target children under 13.
+  </p>
+
+  <h2>11. Changes to This Policy</h2>
+
+  <p>
+    We may update this Privacy Policy when app
+    features, services or legal requirements change.
+    Updated versions will be published on this page.
+  </p>
+
+  <h2>12. Contact Us</h2>
+
+  <p>
+    If you have questions about this Privacy Policy,
+    please contact us:
+  </p>
+
+  <div class="contact">
+
+    <p><strong>App Name:</strong> Workora</p>
+
+    <p>
+      <strong>Developer:</strong>
+      RUSHIKESH UTTAM DHIWAR
+    </p>
+
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:royaldesigner815@gmail.com">
+        royaldesigner815@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <strong>Package Name:</strong>
+      com.aistudio.workora.kxmpzq
+    </p>
+
+  </div>
+
 </div>
+
+<footer>
+  © 2026 Workora. All Rights Reserved.
+</footer>
 
 </body>
 </html>
